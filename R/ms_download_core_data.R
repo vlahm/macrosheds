@@ -55,7 +55,8 @@ ms_download_core_data <- function(macrosheds_root,
         stop('macrosheds_root must be supplied.')
     }
 
-    figshare_base <- 'https://figshare.com/ndownloader/files/'
+    # figshare_base <- 'https://figshare.com/ndownloader/files/'
+    figshare_base <- 'https://ndownloader.figshare.com/files/'
     figshare_codes <- macrosheds::file_ids_for_r_package #loaded in R/sysdata.rda, which is written in postprocessing
 
     version <- as.character(version)
